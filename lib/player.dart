@@ -181,7 +181,6 @@ class Player extends SpriteAnimationGroupComponent with HasGameReference<MyGame>
     if (keysPressed.contains(LogicalKeyboardKey.keyS)) {
       direction.y += 1;
     }
-    if (keysPressed.contains(LogicalKeyboardKey.space)) onLevelUp();
 
     if (direction.length != 0) 
     {
